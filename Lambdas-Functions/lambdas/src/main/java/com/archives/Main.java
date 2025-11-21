@@ -68,7 +68,22 @@ public class Main {
         List<String> isEqualLenght = Array.filter(words2, n -> n.length() == 3);
         System.out.println(isEqualLenght);
 
-        //reduce
-        
+        // reduce
+
+        // flatMap
+        List<List<String>> names3 = List.of(
+                List.of("Luis"),
+                List.of("Ana"),
+                List.of("Andrea"));
+
+        // resultado esperado -> ['L', 'u','i','s','A','n','a','A','n','d','r','e','a']
+        List<String> chars = Array.flatMap(
+                Array.flatMap(names3, fila -> fila), // aplanar matriz
+                name -> name.chars()
+                        .mapToObj(c -> String.valueOf((char) c))
+                        .toList() // convertir nombre → lista de chars
+        );
+
+        System.out.println(chars);
     }
 }
