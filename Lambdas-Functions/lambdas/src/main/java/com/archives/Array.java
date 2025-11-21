@@ -44,4 +44,15 @@ public class Array {
         return result;
     }
 
+    static <T, R> List<R> flatMap(List<T> list, Function<T, List<R>> mapper) {
+        List<R> result = new ArrayList<>();
+
+        for (T element : list) {
+            List<R> sublist = mapper.apply(element);
+            result.addAll(sublist);
+        }
+
+        return result;
+    }
+
 }
