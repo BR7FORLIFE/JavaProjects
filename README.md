@@ -1,30 +1,13 @@
-# Java Projects with JavaFX, Design Patterns, and Databases
 
-Este repositorio contiene siete proyectos desarrollados en Java que utilizan JavaFX para la interfaz gráfica de usuario, patrones de diseño para una arquitectura robusta y bases de datos para el almacenamiento de información.
+## Propósito del repositorio
 
-## Proyectos
+Este repositorio reúne una colección de proyectos desarrollados en Java utilizando el ecosistema de Spring Framework, con el objetivo de estudiar, practicar y consolidar conceptos avanzados de desarrollo backend moderno.
 
-1. **Administrador de tareas**
-    - **Descripción:** una aplicación que permite a los usuarios agregar, editar, eliminar y marcar tareas como completadas.
-    - **Tecnologías:** JavaFX, MySQL, Patrón MVC.
+Cada proyecto está orientado a un tema o enfoque específico: desde aplicaciones tradicionales con arquitectura limpia, hasta programación reactiva con Mono/Flux, pasando por servicios basados en funciones lambda, patrones de diseño y estilos de APIs actuales.
 
-## Requisitos
+El objetivo es ofrecer un entorno donde se puedan estudiar, experimentar y profundizar en conceptos avanzados, enfrentando retos reales y adoptando tecnologías y metodologías relevantes en el mundo del backend. Cada carpeta dentro del repositorio representa un proyecto independiente, orientado a un enfoque particular, facilitando la comprensión de cómo aplicar Spring Framework y Java en distintos contextos y necesidades.
 
-- Java 11 o superior
-- JavaFX 11 o superior
-- Un sistema de gestión de bases de datos (SQLite, MySQL, PostgreSQL)
-
-## Instalación
-
-1. Clona el repositorio:
-    ```sh
-    git clone https://github.com/tu-usuario/java-projects.git
-    ```
-2. Navega al directorio del proyecto:
-    ```sh
-    cd java-projects
-    ```
-3. Sigue las instrucciones específicas de cada proyecto en sus respectivos directorios.
+Este repositorio se convierte así en una herramienta valiosa tanto para el aprendizaje autodidacta como para la referencia profesional, promoviendo el dominio de técnicas modernas y la mejora continua en el desarrollo de aplicaciones backend robustas y escalables.
 
 ## Contribuciones
 
